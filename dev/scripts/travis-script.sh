@@ -9,7 +9,7 @@
 echo "Starting Travis..."
 set -o pipefail
 
-SCHEME="Sortanim"#"${SCHEME:-All UII Tests}"
+SCHEME="Sortanim"
 
 
 #if [ "$SCHEME" == "AmigoDevice" ]; then
