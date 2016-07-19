@@ -28,4 +28,5 @@ language: objective-c
 before_install:
     - brew update
     - brew install xctool
-script: xctool -workspace MyApp.xcworkspace -scheme MyApp test
+script: #xctool -project Sortanim.xcodeproj -scheme Sortanim test
+    - travis_retry ./scripts/travis-script.sh

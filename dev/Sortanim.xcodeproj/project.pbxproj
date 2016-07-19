@@ -65,6 +65,7 @@
 		E23C0A571D3DD2E80085C3ED /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E23C0A651D3DD2EC0085C3ED /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E23C0A661D3DD2EC0085C3ED /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E29AE35B1D3EC6AF00EA4D2D /* travis-script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "travis-script.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		E23C0A0E1D3DCEFF0085C3ED = {
 			isa = PBXGroup;
 			children = (
+				E29AE35A1D3EC68000EA4D2D /* scripts */,
 				E23C0A191D3DCEFF0085C3ED /* Sortanim */,
 				E23C0A321D3DCF000085C3ED /* SortanimTests */,
 				E23C0A3D1D3DCF000085C3ED /* SortanimUITests */,
@@ -167,6 +169,14 @@
 				E23C0A661D3DD2EC0085C3ED /* GameViewController.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		E29AE35A1D3EC68000EA4D2D /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				E29AE35B1D3EC6AF00EA4D2D /* travis-script.sh */,
+			);
+			path = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
