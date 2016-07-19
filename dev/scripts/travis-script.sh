@@ -6,7 +6,7 @@
 #  Created by Ahmed Farghaly on 7/19/16.
 #  Copyright © 2016 Ahmed Farghaly. All rights reserved.
 
-echo "Starting Travis"
+echo "Starting Travis..."
 set -o pipefail
 
 SCHEME="Sortanim"#"${SCHEME:-All UI Tests}"
