@@ -24,7 +24,7 @@
   # - ls -latr test_screenshots/\*line\* || bundle exec scripts/upload-screenshots.rb
 
 
-language: objective-c
+language: objective-d
 # before_install:
     # - brew update
     # - brew install xctool
