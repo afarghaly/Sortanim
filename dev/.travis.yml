@@ -4,14 +4,14 @@
 # xcode_scheme: Sortanim #4
 # xcode_sdk: iphonesimulator8.3 #5
 
-language: objective-c
-osx_image: xcode7.3
-env:
-  - SCHEME=Sortanim
-matrix:
-  fast_finish: true
-  allow_failures:
-    - env: SCHEME=Sortanim
+# language: objective-c
+# osx_image: xcode7.3
+# env:
+#   - SCHEME=Sortanim
+# matrix:
+#   fast_finish: true
+#   allow_failures:
+#     - env: SCHEME=Sortanim
 
 # before_script:
   # - sudo systemsetup -settimezone America/Los_Angeles
@@ -22,3 +22,10 @@ matrix:
   # - bundle exec scripts/upload-screenshots.rb
 # after_success:
   # - ls -latr test_screenshots/\*line\* || bundle exec scripts/upload-screenshots.rb
+
+
+language: objective-c
+before_install:
+    - brew update
+    - brew install xctool
+script: xctool -workspace MyApp.xcworkspace -scheme MyApp test
