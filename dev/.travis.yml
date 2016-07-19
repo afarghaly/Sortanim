@@ -24,9 +24,9 @@
   # - ls -latr test_screenshots/\*line\* || bundle exec scripts/upload-screenshots.rb
 
 
-language: objective-d
+# language: objective-d
 # before_install:
     # - brew update
     # - brew install xctool
-script: #xctool -project Sortanim.xcodeproj -scheme Sortanim test
+script:
     - travis_retry ./scripts/travis-script.sh
