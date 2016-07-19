@@ -15,4 +15,4 @@ before_script:
   - sudo systemsetup -settimezone America/Los_Angeles
 
 script:
-      - travis_retry dev/scripts/travis-script.sh
+      - travis_retry ./dev/scripts/travis-script.sh
