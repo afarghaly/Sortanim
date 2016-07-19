@@ -28,7 +28,7 @@ SCHEME="Sortanim"#"${SCHEME:-All UI Tests}"
 #mkdir $BUILD_FOLDER || true
 #DERIVED_DATA_DIR="$BUILD_FOLDER/XcodeDerivedData"
 
-xcodebuild -project Sortanim.xcodeproj \
+xcodebuild -project dev/Sortanim.xcodeproj \
 -scheme "$SCHEME" \
 -sdk iphonesimulator \
 -destination "platform=iOS Simulator,name=iPhone 6s,OS=latest" \
