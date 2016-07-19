@@ -5,4 +5,4 @@
 # xcode_sdk: iphonesimulator8.3 #5
 
 script:
-      - travis_retry ./dev/scripts/travis-script.sh
+      - travis_retry dev/scripts/travis-script.sh
