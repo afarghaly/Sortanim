@@ -4,5 +4,8 @@
 # xcode_scheme: Sortanim #4
 # xcode_sdk: iphonesimulator8.3 #5
 
+before_script:
+  - sudo systemsetup -settimezone America/Los_Angeles
+  
 script:
       - travis_retry dev/scripts/travis-script.sh
