@@ -7,6 +7,7 @@
 #  Copyright © 2016 Ahmed Farghaly. All rights reserved.
 
 echo "Starting Travis..."
+
 set -o pipefail
 
 SCHEME="Sortanim"
